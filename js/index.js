@@ -1,3 +1,3 @@
-var highlight = function(){
-
+var display = function(){
+	document.getElementById('meat').style.backgroundColor = "red";
 }
