@@ -1,7 +1,7 @@
 .section{
  	background-color: gray;
  	float: left;
- 	height: 100px;
+ 	height: 125px;
  	width: 300px;
  	margin: 50px;
  }
@@ -27,4 +27,9 @@
 }
 
 #frozen{
+}
+
+#button1{
+	height:100px;
+	width:100px;
 }
