@@ -1,6 +1,30 @@
- #meat{
+.section{
  	background-color: gray;
- 	height: 60px;
- 	width: 100px;
- 	margin: ;
+ 	float: left;
+ 	height: 100px;
+ 	width: 200px;
+ 	margin: 50px;
  }
+
+.aisle{
+	height: 200px;
+	width: 900px;
+}
+
+#produce{
+}
+
+#meat{
+}
+  
+#dairy{
+}
+  
+#frozen{
+}
+
+#non-perishable-goods{
+}
+
+#frozen{
+}
