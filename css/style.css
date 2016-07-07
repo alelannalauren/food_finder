@@ -4,6 +4,7 @@
  	height: 100px;
  	width: 200px;
  	margin: 50px;
+ 	font-family: "Comic Sans MS"
  }
 
 .aisle{
@@ -31,12 +32,37 @@
 
 .buttons{
 	height: 50px;
-	width: 
+	width: 50px;
 }
-
 
 #button1{
 	height:50px;
 	width:50px;
 	margin-left: 400px;
 }
+
+#button2{
+	height:50px;
+	width:50px;
+}
+
+#button3{
+	height:50px;
+	width:50px;
+}
+
+#button4{
+	height:50px;
+	width:50px;
+}
+
+#button5{
+	height:50px;
+	width:50px;
+}
+
+#button6{
+	height:50px;
+	width:50px;
+}
+
