@@ -11,7 +11,7 @@ var display3 = function(){
 }
 
 var display4 = function(){
-	document.getElementById('frozen').style.backgroundColor = "#58ACFA";
+	document.getElementById('frozen').style.backgroundColor = "#FF8000";
 }
 
 var display5 = function(){
@@ -19,5 +19,5 @@ var display5 = function(){
 }
 
 var display6 = function(){
-	document.getElementById('seafood').style.backgroundColor = "#9A2EFE";
+	document.getElementById('seafood').style.backgroundColor = "#58ACFA";
 }
