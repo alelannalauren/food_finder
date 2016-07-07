@@ -33,6 +33,7 @@
 .buttons{
 	height: 45px;
 	width: 45px;
+	margin-top: 15px;
 }
 
 #button1{
