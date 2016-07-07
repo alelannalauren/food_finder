@@ -67,17 +67,34 @@
 }
 
 #circle{
-	height: 35px;
-	width: 35px;
+	height: 25px;
+	width: 25px;
 	border-radius: 100%;
 	background-color: black;
 }
 
+.container, .overlay{
+	height: 850px;
+	width: 850px;
+	position: absolute;
+}
 
+.overlay{
+	z-index: 100;
+}
 
+.container{
+	background-color: blue;
+}
 
-
-
+.line{
+	height: 10px;
+	width: 400px;
+	background-color: #ff0b0b;
+	position: absolute;
+	top: 179px;
+	left: 40px;
+}
 
 
 
