@@ -2,8 +2,6 @@ body{
 	background-color: white;
 }
 
-
-
 .section{
  	background-color: gray;
  	float: left;
@@ -101,6 +99,12 @@ body{
 	position: absolute;
 	top: 179px;
 	left: 40px;
+}
+
+#cp1{
+	height: 50px;
+	width: 50px;
+	background-color: black;
 }
 
 
