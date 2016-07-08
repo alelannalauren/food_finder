@@ -1,9 +1,17 @@
+var position = "cp1";
+
 var display1 = function(){
+	document.getElementById(position).innerHTML ="";
+	position = "cp2";
+	document.getElementById(position).innerHTML ="<div id='circle'></div>";
 	clear();
 	document.getElementById('produce').style.backgroundColor = "#01DF3A";
 }
 
 var display2 = function(){
+	document.getElementById(position).innerHTML ="";
+	position = "cp3";
+	document.getElementById(position).innerHTML ="<div id='circle'></div>";
 	clear();
 	document.getElementById('meat').style.backgroundColor = "red";
 }
@@ -34,9 +42,9 @@ var clear = function(){
 	};
 };
 
-	
-// var dot = function(){
-// 	if (var display1) {
 
-// 	}
-// }
+
+
+
+
+
