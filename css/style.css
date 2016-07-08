@@ -8,7 +8,7 @@ body{
  	height: 100px;
  	width: 200px;
  	margin: 50px;
- 	font-family: "Comic Sans MS"
+ 	font-family: "Comic Sans MS";
  }
 
 .aisle{
@@ -76,6 +76,7 @@ body{
 	width: 25px;
 	border-radius: 100%;
 	background-color: orange;
+	z-index: 100;
 }
 
 .container, .overlay{
@@ -101,13 +102,26 @@ body{
 	left: 40px;
 }
 
+
 #cp1{
 	height: 35px;
 	width: 35px;
 	background-color: black;
-	margin-bottom: -47px;
+	margin-top:40px;
 }
 
+
+#cp2{
+	height: 35px;
+	width: 35px;
+	background-color: black;
+}
+
+#aisle1{
+	height:100px;
+	width:35px;
+	background-color: gray;
+}
 
 
 
