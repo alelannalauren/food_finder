@@ -14,13 +14,12 @@ body{
 #row1{
 	height: 200px;
 	width: 900px;
-	margin-
 }
 
 #row2{
 	height: 200px;
 	width: 900px;
-	margin-top: -195px;
+	margin-top: -230px;
 }
 
 #produce{	
@@ -113,7 +112,7 @@ body{
 	height: 35px;
 	width: 35px;
 	background-color: black;
-	margin-top:40px;
+	margin-top:-210px;
 }
 
 #cp2{
@@ -123,15 +122,21 @@ body{
 	margin-top: 10px;
 }
 
+#cp3{
+	height: 35px;
+	width: 35px;
+	background-color: black;
+	margin-top: 10px;
+}
 #aisle1{
-	height: 145px;
+	height: 135px;
 	width: 35px;
 	background-color: gray;
 	margin-top: 10px;
 }
 
 #aisle2{
-	height:145px;
+	height:135px;
 	width:35px;
 	background-color: gray;
 	margin-top: 10px;
