@@ -54,32 +54,42 @@ h1{
 #button1{
 	height:45px;
 	width:45px;
-	margin-left: 400px;
+	margin-left: 75px;
+	margin-bottom: -135px;
 }
 
 #button2{
 	height:45px;
 	width:45px;
+	margin-left: 235px;
+	margin-bottom: -135px;
 }
 
 #button3{
 	height:45px;
 	width:45px;
+	margin-left: 235px;
+	margin-bottom: -135px;
 }
-
 #button4{
 	height:45px;
 	width:45px;
+	margin-left: -665px;
+	margin-bottom: -325px;
 }
 
 #button5{
 	height:45px;
 	width:45px;
+	margin-bottom: -325px;
+	margin-left: 235px;
 }
 
 #button6{
 	height:45px;
 	width:45px;
+	margin-bottom: -325px;
+	margin-left: 235px;
 }
 
 #circle{
