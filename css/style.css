@@ -182,6 +182,30 @@ h1{
 	margin-left: 585px;
 }
 
+#cp10{
+	height: 35px;
+	width: 35px;
+	background-color: black;
+	margin-top: -415px;
+	margin-left: 870px;
+}
+
+#cp11{
+	height: 35px;
+	width: 35px;
+	background-color: black;
+	margin-top: 10px;
+	margin-left: 870px;
+}
+
+#cp12{
+	height: 35px;
+	width: 35px;
+	background-color: black;
+	margin: 10px;
+	margin-left: 870px;
+}
+
 #aisle1{
 	height: 135px;
 	width: 35px;
@@ -228,6 +252,20 @@ h1{
 	margin-left: 585px;
 }
 
+#aisle7{
+	height:135px;
+	width:35px;
+	background-color: gray;
+	margin-top: 10px;
+	margin-left: 870px;
+}
 
+#aisle8{
+	height:135px;
+	width:35px;
+	background-color: gray;
+	margin-top: 10px;
+	margin-left: 870px;
+}
 
 
