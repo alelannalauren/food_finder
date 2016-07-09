@@ -2,7 +2,7 @@ var position = "cp1";
 
 var display1 = function(){
 	document.getElementById(position).innerHTML ="";
-	position = "cp2";
+	position = "produce";
 	document.getElementById(position).innerHTML ="<div id='circle'></div>";
 	clear();
 	document.getElementById('produce').style.backgroundColor = "#01DF3A";
@@ -10,13 +10,17 @@ var display1 = function(){
 
 var display2 = function(){
 	document.getElementById(position).innerHTML ="";
-	position = "cp5";
+	position = "meat";
 	document.getElementById(position).innerHTML ="<div id='circle'></div>";
+	document.getElementById(meat).
 	clear();
 	document.getElementById('meat').style.backgroundColor = "red";
 }
 
 var display3 = function(){
+	document.getElementById(position).innerHTML ="";
+	position = "dairy";
+	document.getElementById(position).innerHTML ="<div id='circle'></div>";
 	clear();
 	document.getElementById('dairy').style.backgroundColor = "#F78181";
 }
