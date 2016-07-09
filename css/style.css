@@ -170,7 +170,15 @@ h1{
 	height: 35px;
 	width: 35px;
 	background-color: black;
-	margin-top: 150px;
+	margin-top: 10px;
+	margin-left: 585px;
+}
+
+#cp9{
+	height: 35px;
+	width: 35px;
+	background-color: black;
+	margin-top: 10px;
 	margin-left: 585px;
 }
 
@@ -204,12 +212,22 @@ h1{
 	margin-left: 280px;
 }
 
-aisle5{
+#aisle5{
 	height:135px;
 	width:35px;
 	background-color: gray;
 	margin-top: 10px;
+	margin-left: 585px;
 }
+
+#aisle6{
+	height:135px;
+	width:35px;
+	background-color: gray;
+	margin-top: 10px;
+	margin-left: 585px;
+}
+
 
 
 
