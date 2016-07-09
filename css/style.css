@@ -123,6 +123,11 @@ h1{
 	left: 40px;
 }
 
+#blankspace{
+	height: 300px;
+	width: 1px; 
+}
+
 #cp1{
 	height: 35px;
 	width: 35px;
