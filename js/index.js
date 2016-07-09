@@ -10,7 +10,7 @@ var display1 = function(){
 
 var display2 = function(){
 	document.getElementById(position).innerHTML ="";
-	position = "cp3";
+	position = "cp5";
 	document.getElementById(position).innerHTML ="<div id='circle'></div>";
 	clear();
 	document.getElementById('meat').style.backgroundColor = "red";
