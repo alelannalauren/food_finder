@@ -11,6 +11,11 @@ body{
  	font-family: "Comic Sans MS";
  }
 
+
+h1{
+	font-family: "Comic Sans MS"
+}
+
 #row1{
 	height: 200px;
 	width: 900px;
@@ -153,6 +158,22 @@ body{
 	margin-left: 280px;
 }
 
+#cp7{
+	height: 35px;
+	width: 35px;
+	background-color: black;
+	margin-top: -415px;
+	margin-left: 585px;
+}
+
+#cp8{
+	height: 35px;
+	width: 35px;
+	background-color: black;
+	margin-top: 150px;
+	margin-left: 585px;
+}
+
 #aisle1{
 	height: 135px;
 	width: 35px;
@@ -183,6 +204,12 @@ body{
 	margin-left: 280px;
 }
 
+aisle5{
+	height:135px;
+	width:35px;
+	background-color: gray;
+	margin-top: 10px;
+}
 
 
 
