@@ -284,6 +284,9 @@ h1{
 }
 
 .rectangle{
+	height: 35px;
+	width: 135px;
+	background-color: gray
 }
 
 #rectangle1{
@@ -298,6 +301,7 @@ h1{
 	width: 135px;
 	background-color: gray;
 	margin: 10px;
+	float: left;
 }
 
 #rectangle3{
