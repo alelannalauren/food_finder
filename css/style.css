@@ -283,6 +283,9 @@ h1{
 	margin-left: 870px;
 }
 
+.rectangle{
+}
+
 #rectangle1{
 	height: 35px;
 	width: 135px;
@@ -293,7 +296,7 @@ h1{
 #rectangle2{
 	height: 35px;
 	width: 135px;
-	background-color: gray
+	background-color: gray;
 	margin: 10px;
 }
 
