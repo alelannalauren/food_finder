@@ -12,9 +12,8 @@ var display2 = function(){
 	document.getElementById(position).innerHTML ="";
 	position = "meat";
 	document.getElementById(position).innerHTML ="<div id='circle'></div>";
-	document.getElementById(meat).
 	clear();
-	document.getElementById('meat').style.backgroundColor = "red";
+	document.getElementById('meat').style.backgroundColor = "#FF0303";
 }
 
 var display3 = function(){
