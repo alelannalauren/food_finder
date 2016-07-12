@@ -45,38 +45,76 @@ var clear = function(){
 	};
 };
 
-// var produceItems = 
-// 	[
-// 	"tomatoes",
-// 	"potatoes",
-// 	"apples",
-// 	"bananas",
-// 	"peaches",
-// 	"lettuce",
-// 	"cabbage",
-// 	"carrots",
-// 	"oranges",
-// 	"grapes",
-// 	"cucumbers",
-// 	"asparagus",
-// 	"broccoli",
-// 	"cherries",
-// 	"strawberries",
-// 	"blueberries",
-// 	"blackberries",
-// 	"raspberries",
-// 	"cranberries",
-// 	// "limes",
-// 	"lemons"
-// 	]
-// }
+var produceItems = 
+	[
+	"tomatoes",
+	"potatoes",
+	"apples",
+	"bananas",
+	"peaches",
+	"lettuce",
+	"cabbage",
+	"carrots",
+	"oranges",
+	"grapes",
+	"cucumbers",
+	"asparagus",
+	"broccoli",
+	"cherries",
+	"strawberries",
+	"blueberries",
+	"blackberries",
+	"raspberries",
+	"cranberries",
+	"limes",
+	"lemons"
+	];
 
-// var searchbar = document.getElementById("search")
-// searchbar.addEventListener("keyup", function () {
-// 	if (produceItems.includes(grapes)) {
-// 	document.getElementById('produce').style.backgroundColor = "#01DF3A";
-// 	}
-// })
+var search = function(searchItem){
+	for (var i = 0; i < produceItems.length; i++) {
+		if (produceItems[i] == searchItem){
+			console.log("This is in produce.");
+			display1();
+		}
+	}
+}
+
+var searchIt = document.querySelector('#searchbox');
+searchIt.addEventListener('submit', function(event) {
+  event.preventDefault();
+  foodsearch = this.querySelector('input').value;
+  console.log("user searched for "+foodsearch);
+  search(foodsearch);
+
+});
+
+var meatItems =
+	[
+	"ribeye steak",
+	"new york steak",
+	"chicken",
+	"lamb chops",
+	"turkey",
+	"mutton",
+	"corned beef",
+	]
+
+var search = function(searchItem){
+	for (var i = 0; i < meatItems.length; i++) {
+		if (meatItems[i] == searchItem){
+			console.log("This is in meat.");
+			display2();
+		}
+	}
+}
+
+
+
+
+
+
+
+
 
 
 
