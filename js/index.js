@@ -1,12 +1,12 @@
 var position = "cp1";
 
 var display1 = function(){
-	document.getElementById(position).innerHTML ="<h1 Produce></h1>";
+	document.getElementById(position).innerHTML ="";
 	position = "cp1";
 	document.getElementById(position).innerHTML ="<div id='circle'></div>";
 	clear();
-	document.getElementById('produce').style.backgroundColor = "#01DF3A";
-}
+	document.getElementById('produce').style.backgroundColor = "#2EFE64";
+};
 
 var display2 = function(){
 	document.getElementById(position).innerHTML ="";
@@ -14,7 +14,7 @@ var display2 = function(){
 	document.getElementById(position).innerHTML ="<div id='circle'></div>";
 	clear();
 	document.getElementById('meat').style.backgroundColor = "#FF0303";
-}
+};
 
 var display3 = function(){
 	document.getElementById(position).innerHTML ="";
@@ -22,22 +22,22 @@ var display3 = function(){
 	document.getElementById(position).innerHTML ="<div id='circle'></div>";
 	clear();
 	document.getElementById('dairy').style.backgroundColor = "#F78181";
-}
+};
 
 var display4 = function(){
 	clear();
 	document.getElementById('frozen').style.backgroundColor = "#FF8000";
-}
+};
 
 var display5 = function(){
 	clear();
 	document.getElementById('non-perishable goods').style.backgroundColor = "#FFFF00";
-}
+};
 
 var display6 = function(){
 	clear();
 	document.getElementById('seafood').style.backgroundColor = "#58ACFA";
-}
+};
 
 var clear = function(){
 	for (var i = 0; i <= 5; i++) {
@@ -67,7 +67,8 @@ var produceItems =
 	"raspberries",
 	"cranberries",
 	"limes",
-	"lemons"
+	"lemons",
+	"corn"
 	];
 
 var search = function(searchItem){
@@ -77,29 +78,6 @@ var search = function(searchItem){
 			display1();
 		}
 	}
-}
-
-var searchIt = document.querySelector('#searchbox');
-searchIt.addEventListener('submit', function(event) {
-  event.preventDefault();
-  foodsearch = this.querySelector('input').value;
-  console.log("user searched for "+foodsearch);
-  search(foodsearch);
-
-});
-
-var meatItems =
-	[
-	"ribeye steak",
-	"new york steak",
-	"chicken",
-	"lamb chops",
-	"turkey",
-	"mutton",
-	"corned beef",
-	]
-
-var search = function(searchItem){
 	for (var i = 0; i < meatItems.length; i++) {
 		if (meatItems[i] == searchItem){
 			console.log("This is in meat.");
@@ -109,12 +87,25 @@ var search = function(searchItem){
 }
 
 
+var meatItems =
+	[
+	"ribeye steak",
+	"new york steak",
+	"chicken",
+	"lamb chops",
+	"turkey",
+	"mutton",
+	"corned beef"
+	];
 
+var searchIt = document.querySelector('#searchbox');
+searchIt.addEventListener('submit', function(event) {
+  event.preventDefault();
+  foodsearch = this.querySelector('input').value;
+  console.log("user searched for "+foodsearch);
+  search(foodsearch);
 
-
-
-
-
+});
 
 
 
