@@ -1,8 +1,8 @@
 var position = "cp1";
 
 var display1 = function(){
-	document.getElementById(position).innerHTML ="";
-	position = "produce";
+	document.getElementById(position).innerHTML ="<h1 Produce></h1>";
+	position = "cp1";
 	document.getElementById(position).innerHTML ="<div id='circle'></div>";
 	clear();
 	document.getElementById('produce').style.backgroundColor = "#01DF3A";
@@ -45,8 +45,38 @@ var clear = function(){
 	};
 };
 
+var produceItems = 
+	[
+	"tomatoes",
+	"potatoes",
+	"apples",
+	"bananas",
+	"peaches",
+	"lettuce",
+	"cabbage",
+	"carrots",
+	"oranges",
+	"grapes",
+	"cucumbers",
+	"asparagus",
+	"broccoli",
+	"cherries",
+	"strawberries",
+	"blueberries",
+	"blackberries",
+	"raspberries",
+	"cranberries",
+	// "limes",
+	"lemons"
+	]
+}
 
-
+var searchbar = document.getElementById("search")
+searchbar.addEventListener("keyup", function () {
+	if (produceItems.includes(grapes)) {
+	document.getElementById('produce').style.backgroundColor = "#01DF3A";
+	}
+})
 
 
 
