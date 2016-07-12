@@ -10,7 +10,7 @@ var display1 = function(){
 
 var display2 = function(){
 	document.getElementById(position).innerHTML ="";
-	position = "meat";
+	position = "cp4";
 	document.getElementById(position).innerHTML ="<div id='circle'></div>";
 	clear();
 	document.getElementById('meat').style.backgroundColor = "#FF0303";
@@ -45,38 +45,38 @@ var clear = function(){
 	};
 };
 
-var produceItems = 
-	[
-	"tomatoes",
-	"potatoes",
-	"apples",
-	"bananas",
-	"peaches",
-	"lettuce",
-	"cabbage",
-	"carrots",
-	"oranges",
-	"grapes",
-	"cucumbers",
-	"asparagus",
-	"broccoli",
-	"cherries",
-	"strawberries",
-	"blueberries",
-	"blackberries",
-	"raspberries",
-	"cranberries",
-	// "limes",
-	"lemons"
-	]
-}
+// var produceItems = 
+// 	[
+// 	"tomatoes",
+// 	"potatoes",
+// 	"apples",
+// 	"bananas",
+// 	"peaches",
+// 	"lettuce",
+// 	"cabbage",
+// 	"carrots",
+// 	"oranges",
+// 	"grapes",
+// 	"cucumbers",
+// 	"asparagus",
+// 	"broccoli",
+// 	"cherries",
+// 	"strawberries",
+// 	"blueberries",
+// 	"blackberries",
+// 	"raspberries",
+// 	"cranberries",
+// 	// "limes",
+// 	"lemons"
+// 	]
+// }
 
-var searchbar = document.getElementById("search")
-searchbar.addEventListener("keyup", function () {
-	if (produceItems.includes(grapes)) {
-	document.getElementById('produce').style.backgroundColor = "#01DF3A";
-	}
-})
+// var searchbar = document.getElementById("search")
+// searchbar.addEventListener("keyup", function () {
+// 	if (produceItems.includes(grapes)) {
+// 	document.getElementById('produce').style.backgroundColor = "#01DF3A";
+// 	}
+// })
 
 
 
