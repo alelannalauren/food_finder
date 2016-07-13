@@ -82,34 +82,43 @@ var search = function(searchItem){
 }
 	for (var i = 0; i < meatItems.length; i++) {
 		if (meatItems[i] == searchItem){
-			console.log("This is in meat.");
+			console.log("This is in the meat department.");
 			display2();
 	}
 }
 	for (var i = 0; i < dairyItems.length; i++) {
 		if (dairyItems[i] == searchItem){
-			console.log("This is in dairy.");
+			console.log("This is in the dairy section.");
 			display3();
 	}
 }	
 	for (var i = 0; i < seafoodItems.length; i++) {
 		if (seafoodItems[i] == searchItem){
-			console.log("This is in seafood.");
+			console.log("This is in the seafood section.");
 			display6();
 	}
 }
-	// for (var i = 0; i < non-perishableItems.length; i++) {
-	// 	if (non-perishableItems[i] == searchItem){
-	// 		console.log("This is in non-perishable goods.");
-	// 		display5();
-	// 	}
-	// }
+	for (var i = 0; i < nonperishableItems.length; i++) {
+		if (nonperishableItems[i] == searchItem){
+			console.log("This is in non-perishable goods section.");
+			display5();
+		}
+	}
+		for (var i = 0; i < frozenItems.length; i++) {
+		if (frozenItems[i] == searchItem){
+			console.log("This is in the frozen section.");
+			display4();
+		}
+	}	
 }
 
 
 var meatItems =
 	[
 	"ribeye steak",
+	"steak",
+	"pork",
+	"beef",
 	"new york steak",
 	"chicken",
 	"lamb chops",
@@ -177,29 +186,47 @@ var seafoodItems =
 	"eel"
 	];
 
-// var non-perishableItems = 
-// 	[
-// 	"beans",
-// 	"apricots",
-// 	"prunes",
-// 	"sunflower seeds",
-// 	"pumpkin seeds",
-// 	"gummies",
-// 	"raisins",
-// 	"chips",
-// 	"pringles",
-// 	"chocolate",
-// 	"gum",
-// 	"rice",
-// 	"ramen",
-// 	"candy",
-// 	"pancake mix",
-// 	"cupcake mix",
-// 	"cake mix",
-// 	"frosting",
-// 	"maple syrup",
-// 	"doritos"
-// 	];
+var nonperishableItems = 
+	[
+	"beans",
+	"apricots",
+	"prunes",
+	"sunflower seeds",
+	"pumpkin seeds",
+	"gummies",
+	"raisins",
+	"chips",
+	"pringles",
+	"chocolate",
+	"gum",
+	"rice",
+	"ramen",
+	"candy",
+	"pancake mix",
+	"cupcake mix",
+	"cake mix",
+	"frosting",
+	"maple syrup",
+	"doritos"
+	];
+
+var frozenItems = 
+	[
+	"ice cream",
+	"frozen yogurt",
+	"frozen pizza",
+	"frozen vegetables",
+	"frozen fruit",
+	"instant meals",
+	"ice cream sandwich",
+	"popsicles",
+	"Cool Whip",
+	"cool whip",
+	"frozen meat",
+	"frozen noodles",
+	"frozen dumplings",
+	"frozen meals"	
+	]
 
 var searchIt = document.querySelector('#searchbox');
 searchIt.addEventListener('submit', function(event) {
