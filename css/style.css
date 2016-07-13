@@ -309,12 +309,13 @@ h1{
 	margin-top: -35px;
 }
 
-/*#rectangle3{
-	margin: 10px;
-	float: left;
-	margin-left: 61px;
+#rectangle3{
+	height: 35px;
+	width: 180px;
+	margin-left: 65px;
 	margin-top: -35px;
-}*/
+	background-color:gray;
+}
 
 #rectangle4{
 	height: 35px;
@@ -337,7 +338,11 @@ h1{
 }
 
 #rectangle6{
-	margin: 10px;
+	height:35px;
+	width: 180px;
+	background-color:gray;
+	margin-left: 355px;
+	margin-top: -15px;
 }
 
 
