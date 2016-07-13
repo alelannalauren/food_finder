@@ -283,16 +283,16 @@ h1{
 	margin-left: 870px;
 }
 
-/*.rectangle{
+.rectangle{
 	height: 35px;
 	width: 180px;
-	background-color: gray;
-}*/
+	background-color: white;
+}
 
 #rectangle1{
 	height: 35px;
 	width: 180px;
-	background-color: gray;
+	background-color: white;
 	margin: 10px;
 	float: left;
 	margin-left: -837px;
@@ -302,7 +302,7 @@ h1{
 #rectangle2{
 	height: 35px;
 	width: 180px;
-	background-color: gray;
+	background-color: white;
 	margin: 10px;
 	float: left;
 	margin-left: 61px;
