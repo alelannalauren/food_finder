@@ -132,9 +132,13 @@ var meatItems =
 	"lamb",
 	"ham",
 	"sausage",
+	"portuguese sausage",
+	"honey glazed ham",
+	"boef borginon",
 	"liver",
 	"chicken liver",
-	"goose liver"
+	"goose liver",
+	"filet mignon"
 	];
 
 var dairyItems = 
@@ -149,14 +153,18 @@ var dairyItems =
 	"eggs",
 	"half and half",
 	"buttermilk",
+	"sweetened condensed milk",
 	"condensed milk",
+	"gouda cheese",
+	"brie",
 	"curd",
 	"Dulce de Leche",
 	"evaporated milk",
 	"goat milk",
 	"sour cream",
 	"whipped cream",
-	"yakuit"
+	"yakuit",
+
 	];
 
 var seafoodItems =
@@ -168,8 +176,8 @@ var seafoodItems =
 	"clams",
 	"oysters",
 	"opihi",
-	"crab",
-	"lobster",
+	"crabs",
+	"lobsters",
 	"shrimp",
 	"anchovy",
 	"halibut",
@@ -183,7 +191,10 @@ var seafoodItems =
 	"squid",
 	"mussles",
 	"uhi",
-	"eel"
+	"eel",
+	"scallop",
+	"scallops"
+
 	];
 
 var nonperishableItems = 
@@ -207,7 +218,12 @@ var nonperishableItems =
 	"cake mix",
 	"frosting",
 	"maple syrup",
-	"doritos"
+	"doritos",
+	"snickers",
+	"fritos",
+	"m&ms",
+	"butterfingers",
+	"three musketeers"
 	];
 
 var frozenItems = 
@@ -225,7 +241,8 @@ var frozenItems =
 	"frozen meat",
 	"frozen noodles",
 	"frozen dumplings",
-	"frozen meals"	
+	"frozen meals",
+	"gluten free"	
 	]
 
 var searchIt = document.querySelector('#searchbox');
