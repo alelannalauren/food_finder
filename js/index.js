@@ -98,12 +98,12 @@ var search = function(searchItem){
 			display6();
 	}
 }
-	for (var i = 0; i < non-perishableItems.length; i++) {
-		if (non-perishableItems[i] == searchItem){
-			console.log("This is in non-perishable goods.");
-			display5();
-		}
-	}
+	// for (var i = 0; i < non-perishableItems.length; i++) {
+	// 	if (non-perishableItems[i] == searchItem){
+	// 		console.log("This is in non-perishable goods.");
+	// 		display5();
+	// 	}
+	// }
 }
 
 
@@ -177,29 +177,29 @@ var seafoodItems =
 	"eel"
 	];
 
-var non-perishableItems = 
-	[
-	"beans",
-	"apricots",
-	"prunes",
-	"sunflower seeds",
-	"pumpkin seeds",
-	"gummies",
-	"raisins",
-	"chips",
-	"pringles",
-	"chocolate",
-	"gum",
-	"rice",
-	"ramen",
-	"candy",
-	"pancake mix",
-	"cupcake mix",
-	"cake mix",
-	"frosting",
-	"maple syrup",
-	"doritos"
-	];
+// var non-perishableItems = 
+// 	[
+// 	"beans",
+// 	"apricots",
+// 	"prunes",
+// 	"sunflower seeds",
+// 	"pumpkin seeds",
+// 	"gummies",
+// 	"raisins",
+// 	"chips",
+// 	"pringles",
+// 	"chocolate",
+// 	"gum",
+// 	"rice",
+// 	"ramen",
+// 	"candy",
+// 	"pancake mix",
+// 	"cupcake mix",
+// 	"cake mix",
+// 	"frosting",
+// 	"maple syrup",
+// 	"doritos"
+// 	];
 
 var searchIt = document.querySelector('#searchbox');
 searchIt.addEventListener('submit', function(event) {
