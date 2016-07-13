@@ -18,7 +18,7 @@ var display2 = function(){
 
 var display3 = function(){
 	document.getElementById(position).innerHTML ="";
-	position = "dairy";
+	position = "cp7";
 	document.getElementById(position).innerHTML ="<div id='circle'></div>";
 	clear();
 	document.getElementById('dairy').style.backgroundColor = "#F78181";
@@ -68,7 +68,9 @@ var produceItems =
 	"cranberries",
 	"limes",
 	"lemons",
-	"corn"
+	"corn",
+	"kale",
+	"radishes"
 	];
 
 var search = function(searchItem){
@@ -77,11 +79,29 @@ var search = function(searchItem){
 			console.log("This is in produce.");
 			display1();
 		}
-	}
+}
 	for (var i = 0; i < meatItems.length; i++) {
 		if (meatItems[i] == searchItem){
 			console.log("This is in meat.");
 			display2();
+	}
+}
+	for (var i = 0; i < dairyItems.length; i++) {
+		if (dairyItems[i] == searchItem){
+			console.log("This is in dairy.");
+			display3();
+	}
+}	
+	for (var i = 0; i < seafoodItems.length; i++) {
+		if (seafoodItems[i] == searchItem){
+			console.log("This is in seafood.");
+			display6();
+	}
+}
+	for (var i = 0; i < non-perishableItems.length; i++) {
+		if (non-perishableItems[i] == searchItem){
+			console.log("This is in non-perishable goods.");
+			display5();
 		}
 	}
 }
@@ -95,7 +115,90 @@ var meatItems =
 	"lamb chops",
 	"turkey",
 	"mutton",
-	"corned beef"
+	"corned beef",
+	"bacon",
+	"ground beef",
+	"ground pork",
+	"ground chicken",
+	"lamb",
+	"ham",
+	"sausage",
+	"liver",
+	"chicken liver",
+	"goose liver"
+	];
+
+var dairyItems = 
+	[
+	"milk",
+	"yogurt",
+	"cheese",
+	"butter",
+	"cottage cheese",
+	"cream cheese",
+	"cream",
+	"eggs",
+	"half and half",
+	"buttermilk",
+	"condensed milk",
+	"curd",
+	"Dulce de Leche",
+	"evaporated milk",
+	"goat milk",
+	"sour cream",
+	"whipped cream",
+	"yakuit"
+	];
+
+var seafoodItems =
+	[
+	"fish",
+	"salmon",
+	"tuna",
+	"ahi",
+	"clams",
+	"oysters",
+	"opihi",
+	"crab",
+	"lobster",
+	"shrimp",
+	"anchovy",
+	"halibut",
+	"mahi mahi",
+	"mackerel",
+	"caviar",
+	"tobiko",
+	"ikura",
+	"crayfish",
+	"octopus",
+	"squid",
+	"mussles",
+	"uhi",
+	"eel"
+	];
+
+var non-perishableItems = 
+	[
+	"beans",
+	"apricots",
+	"prunes",
+	"sunflower seeds",
+	"pumpkin seeds",
+	"gummies",
+	"raisins",
+	"chips",
+	"pringles",
+	"chocolate",
+	"gum",
+	"rice",
+	"ramen",
+	"candy",
+	"pancake mix",
+	"cupcake mix",
+	"cake mix",
+	"frosting",
+	"maple syrup",
+	"doritos"
 	];
 
 var searchIt = document.querySelector('#searchbox');
