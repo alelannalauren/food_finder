@@ -367,7 +367,11 @@ h1{
 }
 
 #rectangle9{
-	margin: 10px;
+	height:35px;
+	width: 180px;
+	background-color:gray;
+	margin-left: 652.5px;
+	margin-top: -15px;
 }
 
 .container1{
