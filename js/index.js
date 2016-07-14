@@ -70,7 +70,8 @@ var produceItems =
 	"lemons",
 	"corn",
 	"kale",
-	"radishes"
+	"radishes",
+	"watermelon"
 	];
 
 var search = function(searchItem){
@@ -102,16 +103,20 @@ var search = function(searchItem){
 		if (nonperishableItems[i] == searchItem){
 			console.log("This is in non-perishable goods section.");
 			display5();
-		}
 	}
+}
 		for (var i = 0; i < frozenItems.length; i++) {
 		if (frozenItems[i] == searchItem){
 			console.log("This is in the frozen section.");
 			display4();
-		}
-	}	
+	}
 }
-
+	for (var i = 0; i < frozenItems.length; i++) {
+		if (searchItem in frozenItems){
+			document.getElementById("sorry").innerHTML ="Sorry, but the item you are looking for is unavailable.";
+		}
+	}
+}	
 
 var meatItems =
 	[
@@ -164,7 +169,7 @@ var dairyItems =
 	"sour cream",
 	"whipped cream",
 	"yakuit",
-
+	"greek yogurt"
 	];
 
 var seafoodItems =
@@ -253,6 +258,21 @@ searchIt.addEventListener('submit', function(event) {
   search(foodsearch);
 
 });
+
+
+var path = function(){
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
