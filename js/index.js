@@ -256,15 +256,17 @@ searchIt.addEventListener('submit', function(event) {
 });
 
 
-var produceMeat = function(){
-	for (var z = produceItems; z < meatItems.length;) {
-		if (produceItems[z] == meatItems) {}
-		document.getElementById('aisle3').style.backgroundColor = "yellow"
-	};
-};
+// var produceMeat = function(){
+// 	if (produceItems == 'true') {
+// 		produceItems;
+// 		meatItems;
+// 	};
+// };
 
 
+// display1 = 1;
 
+// display2 = 2;
 
 
 
