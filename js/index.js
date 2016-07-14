@@ -71,17 +71,16 @@ var search = function(searchItem){
 			display4();
 	}
 }
-	for (var i = 0; i < frozenItems.length; i++) {
-		if (frozenItems[i] != searchItem){
-			alert();
-			return();
-		}
-	}
+	// for (var i = 0; i < seafoodItems.length; i++) {
+	// 	if (seafoodItems[i] != searchItem){
+	// 		alert();
+	// 		return;
+
 }
 
-var alert = function(){
-	alert("Test");
-}
+// var alert = function(){
+// 	alert("Sorry, the item you are looking for is unavailable.");
+// }
 
 
 var produceItems = 
