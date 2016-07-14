@@ -109,7 +109,12 @@ var produceItems =
 	"corn",
 	"kale",
 	"radishes",
-	"watermelon"
+	"watermelon",
+	"pineapple",
+	"bok choy",
+	"chives",
+	"green onions",
+	"onions"
 	];	
 
 var meatItems =
