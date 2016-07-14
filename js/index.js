@@ -175,7 +175,8 @@ var dairyItems =
 	"yakuit",
 	"greek yogurt",
 	"low fat yogurt",
-	"2% milk"
+	"2% milk",
+	"whole milk"
 	];
 
 var seafoodItems =
