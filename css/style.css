@@ -16,11 +16,11 @@ h1{
 	font-family: "Comic Sans MS"
 }
 
-#sorry{
+/*#sorry{
 	height: 20px;
 	width: 20px;
 	background-color: black;
-	}
+	}*/
 
 #row1{
 	height: 200px;
@@ -33,7 +33,7 @@ h1{
 	margin-top: -220px;
 }
 
-#produce{	
+#produce{
 }
 
 #meat{	
@@ -356,16 +356,16 @@ h1{
 	margin-top: -35px;
 }
 
-.container1{
+/*.container1{
 	width: 300px;
 	vertical-align: middle;
 	white-space: nowrap;
 	position: relative;
+	margin-left: 200px;
 }
 .container-1 input#search{
 	width: 500px;
 	height: 200px;
-	margin: 10px; 
 	background:#2b303b;
 	border: bold;
 	font-size: 10pt;
@@ -376,15 +376,27 @@ h1{
 	border-radius:5px;
 	color:#fff;
 }
-
+*/
 #checkout{
-	height: 70px;
+	height: 200px;
 	width: 905px;
 	margin-top: 75px;
 	background-color: #4dff4d;
 	font-family: "Comic Sans MS";
 	font-size: 30px;
 }
+
+#searchbox{
+	margin-bottom:20px;
+}
+
+
+
+
+
+
+
+
 
 
 
