@@ -16,6 +16,12 @@ h1{
 	font-family: "Comic Sans MS"
 }
 
+#sorry{
+	height: 20px;
+	width: 20px;
+	background-color: black;
+	}
+
 #row1{
 	height: 200px;
 	width: 900px;
