@@ -1,25 +1,14 @@
-var position = "cp1";
-
-var display1 = function(){
-	document.getElementById(position).innerHTML ="";
-	position = "cp1";
-	document.getElementById(position).innerHTML ="<div id='circle'></div>";
+var display1 = function(){	
 	clear();
 	document.getElementById('produce').style.backgroundColor = "#2EFE64";
 };
 
-var display2 = function(){
-	document.getElementById(position).innerHTML ="";
-	position = "cp4";
-	document.getElementById(position).innerHTML ="<div id='circle'></div>";
+var display2 = function(){	
 	clear();
 	document.getElementById('meat').style.backgroundColor = "#FF0303";
 };
 
 var display3 = function(){
-	document.getElementById(position).innerHTML ="";
-	position = "cp7";
-	document.getElementById(position).innerHTML ="<div id='circle'></div>";
 	clear();
 	document.getElementById('dairy').style.backgroundColor = "#F78181";
 };
@@ -44,34 +33,6 @@ var clear = function(){
 		document.getElementsByClassName('section')[i].style.backgroundColor = "gray";
 	};
 };
-
-var produceItems = 
-	[
-	"tomatoes",
-	"potatoes",
-	"apples",
-	"bananas",
-	"peaches",
-	"lettuce",
-	"cabbage",
-	"carrots",
-	"oranges",
-	"grapes",
-	"cucumbers",
-	"asparagus",
-	"broccoli",
-	"cherries",
-	"strawberries",
-	"blueberries",
-	"blackberries",
-	"raspberries",
-	"cranberries",
-	"limes",
-	"lemons",
-	"corn",
-	"kale",
-	"radishes"
-	];
 
 var search = function(searchItem){
 	for (var i = 0; i < produceItems.length; i++) {
@@ -102,16 +63,55 @@ var search = function(searchItem){
 		if (nonperishableItems[i] == searchItem){
 			console.log("This is in non-perishable goods section.");
 			display5();
-		}
 	}
+}
 		for (var i = 0; i < frozenItems.length; i++) {
 		if (frozenItems[i] == searchItem){
 			console.log("This is in the frozen section.");
 			display4();
+	}
+}
+	for (var i = 0; i < frozenItems.length; i++) {
+		if (frozenItems[i] != searchItem){
+			alert();
+			return();
 		}
-	}	
+	}
 }
 
+var alert = function(){
+	alert("Test");
+}
+
+
+var produceItems = 
+	[
+	"tomatoes",
+	"potatoes",
+	"apples",
+	"bananas",
+	"peaches",
+	"lettuce",
+	"cabbage",
+	"carrots",
+	"oranges",
+	"grapes",
+	"cucumbers",
+	"asparagus",
+	"broccoli",
+	"cherries",
+	"strawberries",
+	"blueberries",
+	"blackberries",
+	"raspberries",
+	"cranberries",
+	"limes",
+	"lemons",
+	"corn",
+	"kale",
+	"radishes",
+	"watermelon"
+	];	
 
 var meatItems =
 	[
@@ -138,7 +138,9 @@ var meatItems =
 	"liver",
 	"chicken liver",
 	"goose liver",
-	"filet mignon"
+	"filet mignon",
+	"pork belly",
+	"pork shoulder"
 	];
 
 var dairyItems = 
@@ -164,7 +166,9 @@ var dairyItems =
 	"sour cream",
 	"whipped cream",
 	"yakuit",
-
+	"greek yogurt",
+	"low fat yogurt",
+	"2% milk"
 	];
 
 var seafoodItems =
@@ -243,7 +247,7 @@ var frozenItems =
 	"frozen dumplings",
 	"frozen meals",
 	"gluten free"	
-	]
+	];
 
 var searchIt = document.querySelector('#searchbox');
 searchIt.addEventListener('submit', function(event) {
@@ -253,6 +257,25 @@ searchIt.addEventListener('submit', function(event) {
   search(foodsearch);
 
 });
+
+
+// var produceMeat = function(){
+// 	if (produceItems == 'true') {
+// 		produceItems;
+// 		meatItems;
+// 	};
+// };
+
+
+// display1 = 1;
+
+// display2 = 2;
+
+
+
+
+
+
 
 
 
