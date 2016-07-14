@@ -226,7 +226,11 @@ var nonperishableItems =
 	"fritos",
 	"m&ms",
 	"butterfingers",
-	"three musketeers"
+	"three musketeers",
+	"peanut butter",
+	"jelly",
+	"cereal",
+	"crackers"
 	];
 
 var frozenItems = 
