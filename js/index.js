@@ -74,6 +74,7 @@ var search = function(searchItem){
 	for (var i = 0; i < frozenItems.length; i++) {
 		if (frozenItems[i] != searchItem){
 			alert();
+			return();
 		}
 	}
 }
