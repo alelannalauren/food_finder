@@ -114,7 +114,10 @@ var produceItems =
 	"bok choy",
 	"chives",
 	"green onions",
-	"onions"
+	"onions",
+	"garlic",
+	"choy sum",
+	"peas"
 	];	
 
 var meatItems =
@@ -218,6 +221,7 @@ var nonperishableItems =
 	"pringles",
 	"chocolate",
 	"gum",
+	"bubble gum",
 	"rice",
 	"ramen",
 	"candy",
@@ -227,6 +231,7 @@ var nonperishableItems =
 	"frosting",
 	"maple syrup",
 	"doritos",
+	"cheetos",
 	"snickers",
 	"fritos",
 	"m&ms",
@@ -235,7 +240,23 @@ var nonperishableItems =
 	"peanut butter",
 	"jelly",
 	"cereal",
-	"crackers"
+	"crackers",
+	"canned goods",
+	"soup",
+	"canned soup",
+	"Chef Boyardee",
+	"pasta",
+	"spaghetti",
+	"shells",
+	"angel hair",
+	"bow tie pasta",
+	"linguini",
+	"macaroni",
+	"penne",
+	"fusilli",
+	"pizza dough",
+	"tomato sauce",
+	"nori"
 	];
 
 var frozenItems = 
