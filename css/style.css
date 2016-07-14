@@ -131,28 +131,24 @@ h1{
 #cp1{
 	height: 35px;
 	width: 35px;
-	background-color: black;
 	margin-top:-210px;
 }
 
 #cp2{
 	height: 35px;
 	width: 35px;
-	background-color: black;
 	margin-top: 10px;
 }
 
 #cp3{
 	height: 35px;
 	width: 35px;
-	background-color: black;
 	margin-top: 10px;
 }
 
 #cp4{
 	height: 35px;
 	width: 35px;
-	background-color: black;
 	margin-top: -415px;
 	margin-left: 280px;
 }
@@ -160,7 +156,6 @@ h1{
 #cp5{
 	height: 35px;
 	width: 35px;
-	background-color: black;
 	margin-top: 10px;
 	margin-left: 280px;
 }
@@ -168,7 +163,6 @@ h1{
 #cp6{
 	height: 35px;
 	width: 35px;
-	background-color: black;
 	margin-top: 10px;
 	margin-left: 280px;
 }
@@ -176,7 +170,6 @@ h1{
 #cp7{
 	height: 35px;
 	width: 35px;
-	background-color: black;
 	margin-top: -415px;
 	margin-left: 585px;
 }
@@ -184,7 +177,6 @@ h1{
 #cp8{
 	height: 35px;
 	width: 35px;
-	background-color: black;
 	margin-top: 10px;
 	margin-left: 585px;
 }
@@ -192,7 +184,6 @@ h1{
 #cp9{
 	height: 35px;
 	width: 35px;
-	background-color: black;
 	margin-top: 10px;
 	margin-left: 585px;
 }
@@ -200,7 +191,6 @@ h1{
 #cp10{
 	height: 35px;
 	width: 35px;
-	background-color: black;
 	margin-top: -415px;
 	margin-left: 870px;
 }
@@ -208,7 +198,6 @@ h1{
 #cp11{
 	height: 35px;
 	width: 35px;
-	background-color: black;
 	margin-top: 10px;
 	margin-left: 870px;
 }
@@ -216,7 +205,6 @@ h1{
 #cp12{
 	height: 35px;
 	width: 35px;
-	background-color: black;
 	margin: 10px;
 	margin-left: 870px;
 }
@@ -224,21 +212,18 @@ h1{
 #aisle1{
 	height: 135px;
 	width: 35px;
-	background-color: gray;
 	margin-top: 10px;
 }
 
 #aisle2{
 	height:135px;
 	width:35px;
-	background-color: gray;
 	margin-top: 10px;
 }
 
 #aisle3{
 	height:135px;
 	width:35px;
-	background-color: gray;
 	margin-top: 10px;
 	margin-left: 280px;
 }
@@ -246,7 +231,6 @@ h1{
 #aisle4{
 	height:135px;
 	width:35px;
-	background-color: gray;
 	margin-top: 10px;
 	margin-left: 280px;
 }
@@ -254,7 +238,6 @@ h1{
 #aisle5{
 	height:135px;
 	width:35px;
-	background-color: gray;
 	margin-top: 10px;
 	margin-left: 585px;
 }
@@ -262,7 +245,6 @@ h1{
 #aisle6{
 	height:135px;
 	width:35px;
-	background-color: gray;
 	margin-top: 10px;
 	margin-left: 585px;
 }
@@ -270,7 +252,6 @@ h1{
 #aisle7{
 	height:135px;
 	width:35px;
-	background-color: gray;
 	margin-top: 10px;
 	margin-left: 870px;
 }
@@ -278,7 +259,6 @@ h1{
 #aisle8{
 	height:135px;
 	width:35px;
-	background-color: gray;
 	margin-top: 10px;
 	margin-left: 870px;
 }
@@ -292,7 +272,6 @@ h1{
 #rectangle1{
 	height: 35px;
 	width: 180px;
-	background-color: white;
 	margin: 10px;
 	float: left;
 	margin-left: -837px;
@@ -302,7 +281,6 @@ h1{
 #rectangle2{
 	height: 35px;
 	width: 180px;
-	background-color: white;
 	margin: 10px;
 	float: left;
 	margin-left: 61px;
@@ -314,13 +292,11 @@ h1{
 	width: 180px;
 	margin-left: 65px;
 	margin-top: -35px;
-	background-color:gray;
 }
 
 #rectangle4{
 	height: 35px;
 	width: 180px;
-	background-color: gray;
 	margin: 10px;
 	float: left;
 	margin-left: 110px;
@@ -330,7 +306,6 @@ h1{
 #rectangle5{
 	height: 35px;
 	width: 180px;
-	background-color: gray;
 	margin: 10px;
 	float: left;
 	margin-left: 110px;
@@ -340,7 +315,6 @@ h1{
 #rectangle6{
 	height:35px;
 	width: 180px;
-	background-color:gray;
 	margin-left: 355px;
 	margin-top: -35px;
 }
@@ -349,7 +323,6 @@ h1{
 #rectangle7{
 	height: 35px;
 	width: 180px;
-	background-color: gray;
 	margin: 10px;
 	float: left;
 	margin-left: 110px;
@@ -360,7 +333,6 @@ h1{
 #rectangle8{
 	height: 35px;
 	width: 180px;
-	background-color: gray;
 	margin: 10px;
 	margin-left: 657.5px;
 	margin-top: -35px;
@@ -369,7 +341,6 @@ h1{
 #rectangle9{
 	height:35px;
 	width: 180px;
-	background-color:gray;
 	margin-left: 652.5px;
 	margin-top: -35px;
 }
