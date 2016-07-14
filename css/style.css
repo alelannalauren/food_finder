@@ -25,12 +25,13 @@ h1{
 #row1{
 	height: 200px;
 	width: 900px;
+	font-size: 120%;
 }
-
 #row2{
 	height: 200px;
 	width: 900px;
 	margin-top: -220px;
+	font-size: 120%;
 }
 
 #produce{
@@ -367,7 +368,10 @@ h1{
 	width: 500px;
 	height: 200px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	margin: 15px; 
+=======
+>>>>>>> origin/master
 =======
 >>>>>>> origin/master
 	background:#2b303b;
@@ -382,9 +386,9 @@ h1{
 }
 */
 #checkout{
-	height: 75px;
+	height: 70px;
 	width: 905px;
-	margin-top: 55px;
+	margin-top: 75px;
 	background-color: #4dff4d;
 	font-family: "Comic Sans MS";
 	font-size: 30px;
