@@ -166,7 +166,9 @@ var dairyItems =
 	"sour cream",
 	"whipped cream",
 	"yakuit",
-	"greek yogurt"
+	"greek yogurt",
+	"low fat yogurt",
+	"2% milk"
 	];
 
 var seafoodItems =
