@@ -267,7 +267,7 @@ var nonperishableItems =
 	"relish",
 	"pickles",
 	"mayonnaise",
-	"sour crout"
+	"sauerkraut"
 	];
 
 var frozenItems = 
