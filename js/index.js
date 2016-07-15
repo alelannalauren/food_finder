@@ -266,7 +266,7 @@ var nonperishableItems =
 	"mustard",
 	"relish",
 	"pickles",
-	"mayonnaise"
+	"mayonnaise",
 	"sour crout"
 	];
 
