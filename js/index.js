@@ -40,47 +40,49 @@ var search = function(searchItem){
 			console.log("This is in produce.");
 			display1();
 		}
-}
+	}
 	for (var i = 0; i < meatItems.length; i++) {
 		if (meatItems[i] == searchItem){
 			console.log("This is in the meat department.");
 			display2();
+		}
 	}
-}
 	for (var i = 0; i < dairyItems.length; i++) {
 		if (dairyItems[i] == searchItem){
 			console.log("This is in the dairy section.");
 			display3();
-	}
-}	
+		}
+	}	
 	for (var i = 0; i < seafoodItems.length; i++) {
 		if (seafoodItems[i] == searchItem){
 			console.log("This is in the seafood section.");
 			display6();
+		}
 	}
-}
 	for (var i = 0; i < nonperishableItems.length; i++) {
 		if (nonperishableItems[i] == searchItem){
 			console.log("This is in non-perishable goods section.");
 			display5();
+		}
 	}
-}
 		for (var i = 0; i < frozenItems.length; i++) {
 		if (frozenItems[i] == searchItem){
 			console.log("This is in the frozen section.");
 			display4();
+		}
 	}
-}
-	// for (var i = 0; i < seafoodItems.length; i++) {
-	// 	if (seafoodItems[i] != searchItem){
-	// 		alert();
-	// 		return;
+	for (var i = 0; i < seafoodItems.length; i++) {
+		if (seafoodItems[i] != searchItem){
+			noItem();
+			return;
+		}
+	}
 
 }
 
-// var alert = function(){
-// 	alert("Sorry, the item you are looking for is unavailable.");
-// }
+var noItem = function(){
+	alert("Sorry, the item you are looking for is unavailable.");
+}
 
 
 var produceItems = 
