@@ -269,7 +269,19 @@ var nonperishableItems =
 	"relish",
 	"pickles",
 	"mayonnaise",
-	"sauerkraut"
+	"sauerkraut",
+	"trail mix",
+	"beef jerky",
+	"fruit cups",
+	"ramen noodles",
+	"tomato juice",
+	"nuts",
+	"pudding",
+	"applesauce",
+	"macaroni and cheese",
+	"pop tarts",
+	"oatmeal",
+	"canned tuna"
 	];
 
 var frozenItems = 
