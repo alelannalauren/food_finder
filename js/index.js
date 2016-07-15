@@ -147,7 +147,8 @@ var meatItems =
 	"goose liver",
 	"filet mignon",
 	"pork belly",
-	"pork shoulder"
+	"pork shoulder",
+	"balogna"
 	];
 
 var dairyItems = 
@@ -257,7 +258,9 @@ var nonperishableItems =
 	"fusilli",
 	"pizza dough",
 	"tomato sauce",
-	"nori"
+	"nori",
+	"tortilla",
+	"pesto"
 	];
 
 var frozenItems = 
@@ -276,7 +279,8 @@ var frozenItems =
 	"frozen noodles",
 	"frozen dumplings",
 	"frozen meals",
-	"gluten free"	
+	"gluten free",
+	"cookie dough",
 	];
 
 var searchIt = document.querySelector('#searchbox');
