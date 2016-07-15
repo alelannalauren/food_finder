@@ -260,7 +260,13 @@ var nonperishableItems =
 	"tomato sauce",
 	"nori",
 	"tortilla",
-	"pesto"
+	"pesto",
+	"salsa",
+	"ketchup",
+	"mustard",
+	"relish",
+	"pickles",
+	"mayonnaise"
 	];
 
 var frozenItems = 
