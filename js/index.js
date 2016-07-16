@@ -39,50 +39,97 @@ var search = function(searchItem){
 		if (produceItems[i] == searchItem){
 			console.log("This is in produce.");
 			display1();
-		}
+			return;
+		};
 	}
 	for (var i = 0; i < meatItems.length; i++) {
 		if (meatItems[i] == searchItem){
 			console.log("This is in the meat department.");
 			display2();
+			return;
 		}
 	}
 	for (var i = 0; i < dairyItems.length; i++) {
 		if (dairyItems[i] == searchItem){
 			console.log("This is in the dairy section.");
 			display3();
+			return;
 		}
-	}	
+	}
 	for (var i = 0; i < seafoodItems.length; i++) {
 		if (seafoodItems[i] == searchItem){
 			console.log("This is in the seafood section.");
 			display6();
+			return;
 		}
 	}
 	for (var i = 0; i < nonperishableItems.length; i++) {
 		if (nonperishableItems[i] == searchItem){
 			console.log("This is in non-perishable goods section.");
 			display5();
-		}
-	}
-		for (var i = 0; i < frozenItems.length; i++) {
-		if (frozenItems[i] == searchItem){
-			console.log("This is in the frozen section.");
-			display4();
-		}
-	}
-	for (var i = 0; i < seafoodItems.length; i++) {
-		if (seafoodItems[i] != searchItem){
-			noItem();
 			return;
 		}
 	}
+	for (var i = 0; i < frozenItems.length; i++) {
+		if (frozenItems[i] == searchItem){
+			console.log("This is in the frozen section.");
+			display4();
+			return;
+		}
+	}
+	for (var i = 0; i < produceItems.length; i++) {
+		if (produceItems[i] != searchItem){
+			for (var i = 0; i < meatItems.length; i++) {
+				if (meatItems[i] != searchItem){
+					for (var i = 0; i < dairyItems.length; i++) {
+						if (dairyItems[i] != searchItem){
+							for (var i = 0; i < nonperishableItems.length; i++) {
+								if (nonperishableItems[i] != searchItem){
+									for (var i = 0; i < seafoodItems.length; i++) {
+										if (seafoodItems[i] != searchItem){
+											for (var i = 0; i < frozenItems.length; i++) {
+												if (frozenItems[i] != searchItem){
+													alert("Sorry, the item you are looking for is unavailable.");
+													return;
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 
-}
 
-var noItem = function(){
-	alert("Sorry, the item you are looking for is unavailable.");
-}
+};
+
+
+	
+
+
+
+
+
+
+	
+		
+
+	
+	
+// 	for (var i = 0; i < everything.length; i++) {
+// 		for (var x = 0; x < everything[x].length; x++) {
+// 			if (everything[x][i] != searchItem){
+// 				console.log("not here.");
+// 			}
+// 		}
+// 	}
+
+// }
+
 
 
 var produceItems = 
@@ -209,7 +256,6 @@ var seafoodItems =
 	"eel",
 	"scallop",
 	"scallops"
-
 	];
 
 var nonperishableItems = 
@@ -301,7 +347,7 @@ var frozenItems =
 	"frozen dumplings",
 	"frozen meals",
 	"gluten free",
-	"cookie dough",
+	"cookie dough"
 	];
 
 var searchIt = document.querySelector('#searchbox');
@@ -310,7 +356,6 @@ searchIt.addEventListener('submit', function(event) {
   foodsearch = this.querySelector('input').value;
   console.log("user searched for "+foodsearch);
   search(foodsearch);
-
 });
 
 
