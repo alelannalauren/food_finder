@@ -52,14 +52,15 @@ h1{
 #frozen{		
 }
 
-beverage{
+#beverage{
 	height: 100px;
 	width: 200px;
 	background-color: gray;
 	margin: 50px;
 	font-family: "Comin Sans MS";
-	margin-left: 50px;
+	margin-left: 200px;
 	margin-top: 50px;
+	float: left;
 }
 
 .buttons{
